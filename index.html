@@ -1,7 +1,5 @@
-
-<html>
-<head>
-<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<html><head>
+<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 <title>AndrewThings Ltd.</title>
 <style>
 body, p, footer {
@@ -26,35 +24,49 @@ body {
     margin-top: 3rem;
     font-weight: normal;
 }
-footer, footer  a {
+.footer, .footer a {
     text-align: center;
     color: #57d;
     font-size: 0.8rem;
     text-decoration: none;
 }
 
-footer a:hover {
+.footer a:hover {
     color: #f90;
 }
 
+.container{
+    position: relative;
+    height: 100%;
+}
+.center {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
 </style>
-</head>
+<style type="text/css"></style></head>
 <body>
-<div id='title'>
-    <h1>AndrewThings Ltd.</div>
+<div class="container">
+    <div class="center">
+        <div id="title">
+            <h1>AndrewThings Ltd.</h1></div>
+
+        <div class="footer">
+            <p><a href="mailto:contact@andrewthings.co.uk">contact@andrewthings.co.uk</a></p>
+        </div>
+    </div>
 </div>
-<footer>
-    <p><a href="mailto:contact@andrewthings.co.uk">contact@andrewthings.co.uk</a></p>
-</footer>
-<script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
 ga('create', 'UA-48404182-3', 'andrewthings.co.uk');
 ga('send', 'pageview');
-
 </script>
 </body>
 </html>
